@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -433,26 +434,6 @@
         .galeria-item:hover .galeria-caption { transform: translateY(0); opacity: 1; }
 
         /* CTA */
-        .cta-section {
-            background: var(--rojo);
-            padding: 60px 80px;
-            display: flex; align-items: center;
-            justify-content: space-between; gap: 40px;
-        }
-        .cta-text h2 {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 900; font-size: 2rem;
-            text-transform: uppercase; color: white; line-height: 1.1;
-        }
-        .cta-text p { color: rgba(255,255,255,0.72); margin-top: 10px; font-size: 0.9rem; }
-        .cta-num {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 900; font-size: 7rem;
-            color: white; letter-spacing: -4px; line-height: 1;
-            font-style: italic;
-            text-shadow: 4px 4px 0 rgba(0,0,0,0.18);
-            flex-shrink: 0;
-        }
 
         /* FOOTER */
         footer { background: #1a1a1a; color: #bbb; padding: 70px 80px 30px; }
@@ -510,7 +491,7 @@
             .noticias-grid { grid-template-columns: 1fr 1fr; }
             .sobre-section { padding: 60px 40px; gap: 50px; }
             .galeria-section, .noticias-section { padding: 60px 40px; }
-            .cta-section { padding: 50px 40px; }
+
             footer { padding: 60px 40px 26px; }
             .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
         }
@@ -524,8 +505,7 @@
             .sobre-badge { bottom: -10px; right: 0; }
             .galeria-section { padding: 50px 24px; }
             .galeria-grid { grid-template-columns: 1fr; }
-            .cta-section { padding: 50px 24px; flex-direction: column; text-align: center; }
-            .cta-num { font-size: 5rem; }
+
             footer { padding: 50px 24px 24px; }
             .footer-grid { grid-template-columns: 1fr; gap: 30px; }
             .footer-bottom { flex-direction: column; gap: 6px; }
@@ -592,7 +572,7 @@
 
         <a href="tel:132" class="nav-132">
             <div class="nav-132-label">EMERGENCIAS<br>LLAMAR AL</div>
-            <div class="num-132"><span class="e-letra">é</span>132</div>
+            <div class="num-132"></span>132</div>
         </a>
     </div>
 </nav>
@@ -626,7 +606,7 @@
     <div class="noticias-grid">
         <div class="noticia-card">
             <img class="noticia-card-img"
-                 src="________GOBIERNO_REGIONAL_JUNTO_A_BOMBEROS_INAUGURAN_NUEVO_CUARTEL_EN_LA_ESTRELLAEl_anhela.jpg"
+                 src="cuartel_inauguracion.jpg"
                  alt="Inauguración Nuevo Cuartel">
             <div class="noticia-card-body">
                 <span class="noticia-tag">Hito Institucional</span>
@@ -692,15 +672,6 @@
         </div>
     </div>
 </section>
-
-<!-- CTA EMERGENCIA -->
-<div class="cta-section">
-    <div class="cta-text">
-        <h2>Ante una emergencia,<br>no dudes en llamar</h2>
-        <p>Disponibles las 24 horas, los 365 días del año.<br>Llamada gratuita desde cualquier teléfono.</p>
-    </div>
-    <div class="cta-num">132</div>
-</div>
 
 <!-- FOOTER -->
 <footer id="contacto">
